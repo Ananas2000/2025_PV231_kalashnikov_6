@@ -384,6 +384,10 @@ CMakeFiles/lab10OOP.dir/lab10OOP_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.9.0/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.9.0/mingw_64/include/QtGui/qbitmap.h \
  C:/Qt/6.9.0/mingw_64/include/QtWidgets/qtabwidget.h \
+ C:/Qt/6.9.0/mingw_64/include/QtCore/QFileSystemWatcher \
+ C:/Qt/6.9.0/mingw_64/include/QtCore/qfilesystemwatcher.h \
+ C:/Qt/6.9.0/mingw_64/include/QtCore/QList \
+ C:/Qt/6.9.0/mingw_64/include/QtCore/qlist.h \
  C:/proj/lab10OOP/SmartPoint.h \
  C:/Qt/6.9.0/mingw_64/include/QtCore/qtmochelpers.h \
  C:/Qt/6.9.0/mingw_64/include/QtCore/qtmocconstants.h \

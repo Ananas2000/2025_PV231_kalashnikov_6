@@ -1,5 +1,7 @@
 C:/proj/lab10OOP/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/lab10OOP_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/proj/lab10OOP/mainwindow.h \
   C:/proj/lab10OOP/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/lab10OOP_autogen/moc_predefs.h \
+  C:/Qt/6.9.0/mingw_64/include/QtCore/QFileSystemWatcher \
+  C:/Qt/6.9.0/mingw_64/include/QtCore/QList \
   C:/Qt/6.9.0/mingw_64/include/QtCore/q17memory.h \
   C:/Qt/6.9.0/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.9.0/mingw_64/include/QtCore/q20iterator.h \
@@ -37,6 +39,7 @@ C:/proj/lab10OOP/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/lab10OOP_autogen/EWIE
   C:/Qt/6.9.0/mingw_64/include/QtCore/qdebug.h \
   C:/Qt/6.9.0/mingw_64/include/QtCore/qendian.h \
   C:/Qt/6.9.0/mingw_64/include/QtCore/qexceptionhandling.h \
+  C:/Qt/6.9.0/mingw_64/include/QtCore/qfilesystemwatcher.h \
   C:/Qt/6.9.0/mingw_64/include/QtCore/qflags.h \
   C:/Qt/6.9.0/mingw_64/include/QtCore/qfloat16.h \
   C:/Qt/6.9.0/mingw_64/include/QtCore/qforeach.h \

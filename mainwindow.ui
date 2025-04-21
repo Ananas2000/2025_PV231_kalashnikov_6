@@ -41,7 +41,7 @@
       <item>
        <widget class="QPushButton" name="clearLog">
         <property name="text">
-         <string>Очистить лог</string>
+         <string>Очистить вывод</string>
         </property>
        </widget>
       </item>
