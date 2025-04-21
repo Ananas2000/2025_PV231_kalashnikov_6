@@ -11,6 +11,7 @@ qt_add_executable(lab10OOP
     mainwindow.cpp
     mainwindow.h
     mainwindow.ui
+    SmartPoint.h
 )
 
 target_link_libraries(lab10OOP

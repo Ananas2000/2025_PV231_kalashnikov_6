@@ -79,8 +79,8 @@ clean: CMakeFiles/lab10OOP_autogen.dir/clean
 # Target rules for target CMakeFiles/lab10OOP.dir
 
 # All Build rule for target.
-CMakeFiles/lab10OOP.dir/all: CMakeFiles/lab10OOP_autogen_timestamp_deps.dir/all
 CMakeFiles/lab10OOP.dir/all: CMakeFiles/lab10OOP_autogen.dir/all
+CMakeFiles/lab10OOP.dir/all: CMakeFiles/lab10OOP_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab10OOP.dir\build.make CMakeFiles/lab10OOP.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab10OOP.dir\build.make CMakeFiles/lab10OOP.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\proj\lab10OOP\build\Desktop_Qt_6_9_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=1,2,3,4 "Built target lab10OOP"
