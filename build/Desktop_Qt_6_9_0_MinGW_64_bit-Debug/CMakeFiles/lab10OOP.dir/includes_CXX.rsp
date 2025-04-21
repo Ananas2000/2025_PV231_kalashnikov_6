@@ -1,0 +1,1 @@
+-I"C:/proj/lab10OOP/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/lab10OOP_autogen/include" -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem "C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++" -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui
