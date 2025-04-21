@@ -384,6 +384,7 @@ CMakeFiles/lab10OOP.dir/lab10OOP_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.9.0/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.9.0/mingw_64/include/QtGui/qbitmap.h \
  C:/Qt/6.9.0/mingw_64/include/QtWidgets/qtabwidget.h \
+ C:/proj/lab10OOP/SmartPoint.h \
  C:/Qt/6.9.0/mingw_64/include/QtCore/qtmochelpers.h \
  C:/Qt/6.9.0/mingw_64/include/QtCore/qtmocconstants.h \
  C:/Qt/6.9.0/mingw_64/include/QtCore/q20algorithm.h \

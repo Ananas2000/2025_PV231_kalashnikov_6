@@ -382,6 +382,7 @@ CMakeFiles/lab10OOP.dir/main.cpp.obj: C:\proj\lab10OOP\main.cpp \
  C:/Qt/6.9.0/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.9.0/mingw_64/include/QtGui/qbitmap.h \
  C:/Qt/6.9.0/mingw_64/include/QtWidgets/qtabwidget.h \
+ C:\proj\lab10OOP\SmartPoint.h \
  C:/Qt/6.9.0/mingw_64/include/QtWidgets/QApplication \
  C:/Qt/6.9.0/mingw_64/include/QtWidgets/qapplication.h \
  C:/Qt/6.9.0/mingw_64/include/QtCore/qcoreapplication.h \
