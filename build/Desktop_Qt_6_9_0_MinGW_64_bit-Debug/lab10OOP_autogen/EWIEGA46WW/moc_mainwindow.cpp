@@ -43,7 +43,7 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
         "",
         "on_startMonitoring_clicked",
         "on_stopMonitoring_clicked",
-        "on_clearLog_clicked",
+        "on_ClearLog_clicked",
         "directoryChanged",
         "path"
     };
@@ -55,7 +55,7 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
         QtMocHelpers::SlotData<void()>(3, 2, QMC::AccessPrivate, QMetaType::Void),
         // Slot 'on_stopMonitoring_clicked'
         QtMocHelpers::SlotData<void()>(4, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'on_clearLog_clicked'
+        // Slot 'on_ClearLog_clicked'
         QtMocHelpers::SlotData<void()>(5, 2, QMC::AccessPrivate, QMetaType::Void),
         // Slot 'directoryChanged'
         QtMocHelpers::SlotData<void(const QString &)>(6, 2, QMC::AccessPrivate, QMetaType::Void, {{
@@ -87,7 +87,7 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 0: _t->on_selectDirectory_clicked(); break;
         case 1: _t->on_startMonitoring_clicked(); break;
         case 2: _t->on_stopMonitoring_clicked(); break;
-        case 3: _t->on_clearLog_clicked(); break;
+        case 3: _t->on_ClearLog_clicked(); break;
         case 4: _t->directoryChanged((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
         default: ;
         }

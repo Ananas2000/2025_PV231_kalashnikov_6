@@ -7,9 +7,9 @@
 #include <QDir>
 
 MainWindow::MainWindow(QWidget *parent)
-    : QMainWindow(parent), ui(new Ui::MainWindow), watcher(new QFileSystemWatcher(this)) {
+    : QMainWindow(parent), ui(new Ui::MainWindow), watcher(new QFileSystemWatcher()) {
     ui->setupUi(this);
-    connect(watcher, &QFileSystemWatcher::directoryChanged, this, &MainWindow::directoryChanged);
+    connect(watcher.operator->(), &QFileSystemWatcher::directoryChanged, this, &MainWindow::directoryChanged);
 }
 
 MainWindow::~MainWindow() {
@@ -41,7 +41,7 @@ void MainWindow::on_stopMonitoring_clicked() {
     ui->logArea->append("Мониторинг остановлен");
 }
 
-void MainWindow::on_clearLog_clicked() {
+void MainWindow::on_ClearLog_clicked() {
     ui->logArea->clear();
 }
 
@@ -51,7 +51,6 @@ void MainWindow::directoryChanged(const QString &path) {
     updateFileList();
     detectRenamedFiles(oldFiles, currentFiles);
 
-    // Обновляем отслеживаемые файлы
     watcher->addPath(currentDir);
     for (const QString &file : currentFiles) {
         watcher->addPath(currentDir + "/" + file);
@@ -67,7 +66,6 @@ void MainWindow::detectRenamedFiles(const QList<QString>& oldFiles, const QList<
                                  .subtract(QSet<QString>(newFiles.begin(), newFiles.end()))
                                  .values();
 
-    // Определяем переименования (1:1)
     if (added.size() == 1 && removed.size() == 1) {
         logEvent(QString("Файл переименован: '%1' -> '%2'")
                      .arg(removed.first())
@@ -75,7 +73,6 @@ void MainWindow::detectRenamedFiles(const QList<QString>& oldFiles, const QList<
         return;
     }
 
-    // Логируем оставшиеся изменения
     for (const QString &file : removed) {
         logEvent("Удален файл: " + file);
     }
